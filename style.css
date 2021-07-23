@@ -1,0 +1,226 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	/* background: #333; */
+	color: #fff;
+}
+
+/* element.style {
+}
+nav.fixed-top {
+    padding: 0.5rem;
+} */
+.navbar{
+    border-bottom: 3px solid #008ed6;
+	background: #5c6a70;
+    opacity: 0.7;
+}
+#home-section{
+	background: url(images/home\ background.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.dark-overlay{
+		height: 100vh;
+		background: rgba(0,0,0,0.6);
+		
+	}
+}
+.dark-overlay{
+	background: rgba(0,0,0,0.6);
+}
+
+.navbar-nav .nav-link{
+	color: rgba(255, 255, 255, 0.5);
+
+}
+/* .all{
+	color: rgb(223, 213, 213);
+} */
+.navbar-nav .nav-link:hover{
+	color: white !important;
+
+}
+
+.bar{
+	color: white;
+}
+
+.protom{
+	background: white;
+	color: blue;
+	padding: 10px;
+	font-size: 40px;
+	border-radius: 10px;
+}
+
+.home-inner{
+	padding-top: 150px;
+	padding-bottom: 60px;
+}
+
+
+
+		/* explore section start here */
+
+
+		#explore-section{
+			background: #333;
+		}
+		
+
+		.info p {
+			font-size: 20px;
+		}
+	
+		.section-title h1{
+			font-size: 56px;
+			font-weight: lighter;
+		}
+		.batun{
+			border: 2px solid white;
+			color: white;
+		}
+		.batun:hover{
+			background: white;
+			color: #333;
+		}
+
+
+
+
+
+		/* explore section end here */
+
+
+
+		/* learn contact start here */
+
+		.baby-section{
+			padding: 40px;
+
+		}
+
+		.learn{
+			color: black;
+		}
+		.para1{
+			color: #333;
+		}
+		.info{
+			color: #333;
+		}
+		.small{
+			font-size: 12px;
+		}
+		p.para1 {
+			font-size: 19px;
+		}
+		p.passion {
+			font-size: 19px;
+		}
+		/* .baby-image img {
+			height: 281px;
+			width: 540px;
+		} */
+		.sign{
+			background: #333 ;
+			padding: 1px 6px;
+			font-size: 23px;
+			border-radius: 10px;
+			height: 35px !important;
+		}
+
+
+		/* learn contact end here */
+
+
+		/* create section start here */
+
+
+		/* #create-section{
+			background: blue;
+		} */
+		.para5{
+			font-weight: lighter;
+		}
+
+		#passion{
+			background: #333;
+		}
+		.passion{
+			color: white;
+		}
+		.sign2{
+			background: white;
+			color: blue;
+			padding: 1px 6px;
+			font-size: 23px;
+			border-radius: 10px;
+			height: 35px !important;
+		}
+
+		
+
+
+
+
+
+		/* create section end here */
+
+
+		/* footer section start here */
+
+
+			.naimur{
+				color: #ffc107 !important;
+			}
+
+
+
+		/* footer section end here */
+
+
+
+
+@media(max-width: 768px){
+	#home-section h1{
+		font-size: 35px;
+	}
+	
+}
+/* .baby-image img{
+	height: 300px;
+	width: 650px;
+} */
+
+
+/* @media(max-width: 575px){
+	.baby-image img{
+		height: 300px;
+		width: 500px;
+	}
+}
+@media(max-width: 991px){
+	.baby-image img {
+		height: 281px;
+		width: 540px;
+	}
+} */
+
+
+
+
+
+
+/* .ikon{
+	border: 1px solid white;
+	width: 10px;
+	height: 10px;
+	text-align: center;
+} */
